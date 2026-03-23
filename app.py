@@ -190,7 +190,7 @@ STYLES = """
         border-top: 1px solid #eee;
     }
 </style>
-""".format(primary=Config.COLOR_PRIMARY)
+""".replace("{primary}", Config.COLOR_PRIMARY)
 
 
 # ==================== 页面初始化 ====================
